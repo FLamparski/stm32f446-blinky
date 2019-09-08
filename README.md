@@ -18,7 +18,7 @@ $ cargo build --target thumbv7em-none-eabi
 
 ## Running
 
-Follow instructions in [here](https://rust-embedded.github.io/discovery/05-led-roulette/flash-it.html)
+Similar to instructions in [here](https://rust-embedded.github.io/discovery/05-led-roulette/flash-it.html). To start OpenOCD, use `openocd -f interface/stlink.cfg -f target/stm32f4x.cfg`.
 
 ## Memory layout
 
